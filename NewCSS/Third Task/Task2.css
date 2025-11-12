@@ -1,0 +1,26 @@
+.MainContainer
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 100vh;
+    
+}
+
+.FirstChild
+{
+    background-color: orange;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SecondChild
+{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

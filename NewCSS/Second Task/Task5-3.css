@@ -1,0 +1,18 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  line-height: 1.6;
+}
+
+
+.fixed-image {
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  width: 100px;
+  height: 600px;
+  background-image: url("Image.jpg"); 
+  background-repeat: repeat-y;
+  background-size: contain;
+  background-position: center;
+}

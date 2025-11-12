@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  background-color: hotpink;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+.box {
+  float: left;
+  width: 30%;
+  margin: 10px;
+  background-color: #f2f2f2;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.highlight {
+  clear: both;
+  background-color: violet;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 0;
+
+  max-height: 100px;    
+  overflow-y: auto;       
+}
+
+
+.main-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}

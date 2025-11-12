@@ -1,0 +1,64 @@
+.MainContainer
+{
+    display: grid;
+    grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(2, 60px);
+    width: 400px;
+    margin: 100px auto;
+    border: 3px solid brown;
+
+    
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-weight: bold   ;
+    text-align: center;
+    line-height: 40px;
+    width: 80px;
+    
+    }
+
+.item1
+{
+    background-color: green;
+}
+.item2
+{
+    background-color: blue;
+}
+.item3
+{
+    background-color: purple;
+}
+.item4
+{
+    background-color: darkblue;
+}
+.item5
+{
+    background-color: rgb(221, 221, 14);
+}
+.item6
+{
+    background-color: orange;
+}
+.item7
+{
+    background-color: red;
+}
+.item8
+{
+    background-color: gray;
+}
+.item9
+{
+    background-color: green;
+}
+.item10
+{
+    background-color: greenyellow;
+}
