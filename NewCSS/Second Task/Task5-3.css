@@ -6,13 +6,13 @@ body {
 
 
 .fixed-image {
-  position: fixed;
-  right: 100px;
-  top: 100px;
-  width: 100px;
-  height: 600px;
-  background-image: url("Image.jpg"); 
-  background-repeat: repeat-y;
-  background-size: contain;
-  background-position: center;
+position: fixed;
+    right: 5px;
+    top: 100px;
+    width: 100px;
+    height: 543px;
+    background-image: url(Image.jpg);
+    background-size: contain;
+    background-position: center;
+
 }
