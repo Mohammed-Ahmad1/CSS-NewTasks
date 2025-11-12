@@ -8,7 +8,6 @@ body {
 .main-container {
   width: 80%;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 20px;
   background-color: #fff9cc;
 }
@@ -39,24 +38,35 @@ h2 {
 }
 
 .box1 {
-  background-color: #fff9cc; 
+  background-color: white;
+
 }
 
 .box2 {
-  background-color: #fff9cc;
+  background-color: white;
+  
 }
 
 .box3 {
-  background-color: #ffeaea; 
+  background-color: white; 
   border: 1px dashed red;
 }
 
-.highlight {
+.box3 p {
+   border: 1px dashed red;
+}
+
+.highlight-Orange {
+  background-color: orange;
+  font-weight: bold;
+}
+
+.highlight-Yellow {
   background-color: yellow;
   font-weight: bold;
 }
 
-.highlight-red {
+.box3 p
+{
   color: red;
-  font-weight: bold;
 }
